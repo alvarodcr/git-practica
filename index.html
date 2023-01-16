@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Colores Dinámicos</title>
+<style>
+body {
+    background-color: #F0F8FF;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: #008080;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    color: #008080;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cambio {
+    background-color: #F0F8FF;
+    color: #008080;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cambio:hover {
+    background-color: #008080;
+    color: #F0F8FF;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+}
+</style>
+</head>
+<body>
+    <h1>Colores Dinámicos</h1>
+    <p>Haga clic en el botón para cambiar los colores de la página.</p>
+    <button class="cambio" onclick="cambiarColores()">Cambiar Colores</button>
+    <script>
+        function cambiarColores() {
+            document.body.style.backgroundColor = "#008080";
+            document.body.style.color = "#F0F8FF";
+        }
+    </script>
+</body>
+</html>
